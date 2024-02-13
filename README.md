@@ -1,4 +1,31 @@
-Cucumber Boilerplate [![Test](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml/badge.svg)](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml)
+Modern FEE - Automation
+
+This repo contains a boilerplate project featuring WebdriverIO, slightly modified for learning purposes.
+
+## Requirements
+- Node version 14 or higher
+- Google Chrome installed
+
+## Quick Setup
+- Clone repository
+- run 'npm install'
+
+## Project Structure
+
+- 'lab' contains the features we'll be using in the workshop.
+- 'src' contains example features, step definitions (given, then, when), predefined steps and hooks.
+- 'wdio.conf.ts' is the main configuration file for WebdriverIO.
+
+## To-Do:
+
+- we'll be focusing on the features written inside 'lab', and custom steps stored in 'src/custom'.
+
+
+
+====================
+
+
+Original README for Cucumber Boilerplate [![Test](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml/badge.svg)](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml)
 ====================
 
 Boilerplate project to run WebdriverIO (alpha v8) tests with [Cucumber](https://cucumber.io/) and brings **true** [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development) to JavaScript. Instead of writing complicated test code that only developers can understand, Cucumber maps an ordinary language to code and allows to start with the test process in the early stages of your product development.
@@ -16,25 +43,7 @@ Also this project doesn't cover setting up a proper test environment. You need t
 
 ## Quick start
 
-Choose one of the following options:
-
-1. Download the latest stable release [here](https://github.com/webdriverio/cucumber-boilerplate/archive/main.zip) or clone the git repo — `git clone https://github.com/webdriverio/cucumber-boilerplate.git`
-
-2. Then:
-- Copy the files to your project into a directory like `/integrationtests` (note the hidden files!)
-
-3. Clean the project (Optional):
-- *On OSX/Linux:*
--- Run `yarn run clean`
-
-- *On Windows:*
--- Remove the directories `/.git`, `/.github`, `/demo-app` & `/test`
--- Remove the files `.travis.yml`, `jest.json` & `wdio.BUILD.conf.js`
--- Remove all the demo features from the `/src/features` directory
-
-4. Install the dependencies (`yarn install`)
-
-Now you are ready to write your own features.
+npm install
 
 ## Features
 
