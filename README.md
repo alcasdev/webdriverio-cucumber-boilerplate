@@ -18,7 +18,8 @@ This repo contains a boilerplate project featuring WebdriverIO, slightly modifie
 
 ## To-Do:
 
-- we'll be focusing on the features written inside 'lab', and custom steps stored in 'src/custom'.
+- we'll be focusing on the features written inside 'lab', predefined steps in 'src/steps' and custom steps stored in 'src/custom'.
+- go to 'lab/features/1stday¿ and take a look at README.md
 
 
 

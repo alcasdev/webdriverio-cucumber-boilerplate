@@ -14,5 +14,6 @@ Feature: Sauce Demo Login
         Given the element ".error-button" is not displayed
         And I set "standard_user" to the inputfield "#user-name"
         And I set "secret_sauce" to the inputfield "#password"
-        And I click on the element "#login-button"
+        When I click on the element "#login-button"
+        And I pause for 1000ms
         Then  I wait on element "#inventory_container" to be displayed
