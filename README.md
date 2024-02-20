@@ -16,11 +16,24 @@ This repo contains a boilerplate project featuring WebdriverIO, slightly modifie
 - 'src' contains example features, step definitions (given, then, when), predefined steps and hooks.
 - 'wdio.conf.ts' is the main configuration file for WebdriverIO.
 
-## To-Do:
+## What to focus on:
 
-- we'll be focusing on the features written inside 'lab', predefined steps in 'src/steps' and custom steps stored in 'src/custom'.
-- go to 'lab/features/1stday¿ and take a look at README.md
+- we'll be focusing on the features written inside 'lab', predefined steps in 'src/steps' and custom steps stored in 'src/steps/support/custom'.
+- go to 'lab/features/1stday' and take a look at README.md
 
+## Day1:
+
+- Automation: WebdriverIO + Cucumber overview
+- Software Setup and Config
+- Feature Files and Step Definitions
+- Running our first set of Tests
+
+## Day2:
+
+- Comprehensive Test on Demo Site
+- Custom Steps
+- Create and Integrate a Custom Step
+- Misc. Actions in the Webdriver/Node execution space
 
 
 ====================
@@ -80,25 +93,6 @@ Scenario: Another test
     Given ...
 
 ```
-
-This test opens the browser and navigates them to google.com to check if the title contains the search
-query after doing a search. As you can see, it is pretty simple and understandable for everyone.
-
-# How to run the test
-
-Start the local web server:
-
-```sh
-$ yarn run test
-```
-
-To run your tests just call the [WDIO runner](http://webdriver.io/guide/testrunner/gettingstarted.html):
-
-```sh
-$ yarn run wdio
-```
-
-_please note_ The WDIO runner uses the configuration file `wdio.conf.js` by default.
 
 # Configurations
 

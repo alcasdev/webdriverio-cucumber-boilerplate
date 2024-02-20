@@ -107,6 +107,8 @@ export const hooks = {
      * @param {Array.<String>} specs List of spec file paths that ran
      */
     // after: function (result, capabilities, specs) {
+    //     browser.saveScreenshot('img/latest.png');
+    //     browser.savePDF('img/latest.pdf');
     // },
     /**
      * Gets executed right after terminating the webdriver session.

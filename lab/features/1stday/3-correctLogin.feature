@@ -1,4 +1,4 @@
-Feature: Sauce Demo Login
+Feature: Sauce Demo Correct Login
     As a Test Developer
     I should be able to see the login page in the demo website and interact with it.
 

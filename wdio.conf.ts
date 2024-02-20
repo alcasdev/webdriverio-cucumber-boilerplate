@@ -1,5 +1,6 @@
 import url from 'node:url';
 import path from 'node:path';
+import 'dotenv/config'
 
 import { hooks } from './src/support/hooks.js';
 
@@ -26,6 +27,14 @@ export const config: WebdriverIO.Config = {
     specs: [
         './lab/features/**/*.feature',
     ],
+    suites: {
+        day1: [
+            './lab/features/1stday/*.feature',
+        ],
+        day2: [
+            './lab/features/2ndday/*.feature',
+        ]
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -57,7 +66,7 @@ export const config: WebdriverIO.Config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs

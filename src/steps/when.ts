@@ -18,6 +18,20 @@ import setInputField from '../support/action/setInputField.js';
 import setPromptText from '../support/action/setPromptText.js';
 import switchIFrame from '../support/action/switchIFrame.js';
 
+// custom steps
+import completeLogin from '../support/custom/completeLogin.js';
+import envLogin from '../support/custom/envLogin.js';
+
+When(
+    /^I login to "([^"]*)?" with username "([^"]*)?" and password "([^"]*)?"$/,
+    completeLogin
+);
+
+When(
+    /^I login to SauceDemo with env credentials$/,
+    envLogin
+);
+
 When(
     /^I (click|doubleclick) on the (link|button|element) "([^"]*)?"$/,
     clickElement
