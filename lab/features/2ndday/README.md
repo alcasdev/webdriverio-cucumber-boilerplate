@@ -22,3 +22,10 @@ $ npx wdio wdio.conf.ts --spec lab/features/2ndday/1-customLogin.feature
 > "3-inventory.feature" showcases different actions and selectors for us to consider.
 
 > "4-E2E.feature" is meant as an exercise, we can use steps previously shown to complete the main flow of the demo app as defined in the Scenarios, without writing any new custom code, hopefully.
+
+
+### Extras to take a look at if there's time:
+
+Misc: Screenshot and PDF functions in hooks.
+Suite execution.
+

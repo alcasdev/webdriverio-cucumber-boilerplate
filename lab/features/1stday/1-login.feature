@@ -5,7 +5,8 @@ Feature: Sauce Demo Login
     Scenario: Demo Login Page is Displayed
         Given I open the url "https://www.saucedemo.com/"
         And I expect that the url is "https://www.saucedemo.com/"
-        And the element "#user-name" is displayed
+        When I pause for 1000ms
+        Then the element "#user-name" is displayed
         And the element "#password" is displayed
         And the element "#login-button" is displayed
         And the title is "Swag Labs"

@@ -5,6 +5,7 @@ Feature: Sauce Demo Failed Login
     Scenario: Demo Login Page is Displayed
         Given I open the url "https://www.saucedemo.com/"
         And I expect that the url is "https://www.saucedemo.com/"
+        And I pause for 1000ms
         And the element "#user-name" is displayed
         And the element "#password" is displayed
         And the element "#login-button" is displayed

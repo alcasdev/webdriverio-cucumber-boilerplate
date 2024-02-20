@@ -5,6 +5,7 @@ Feature: Env Login
     Scenario: Complete Login
         # Given I login to "https://www.saucedemo.com/" with username "standard_user" and password "secret_sauce"
         Given I login to SauceDemo with env credentials
+        And I pause for 1000ms
 
     Scenario: Inventory page is displayed correctly
         Given  I wait on element "#inventory_container" to be displayed
