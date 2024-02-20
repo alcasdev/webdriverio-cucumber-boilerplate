@@ -1,14 +1,16 @@
 Modern FEE - Automation
+====================
 
 This repo contains a boilerplate project featuring WebdriverIO, slightly modified for learning purposes.
 
 ## Requirements
-- Node version 14 or higher
+- Node version 14 or higher (LTS should be fine)
 - Google Chrome installed
 
 ## Quick Setup
 - Clone repository
-- run 'npm install'
+- Run 'npm install'
+- If using vscode, it's good to install the extension "Cucumber (Gherkin) Full Support"
 
 ## Project Structure
 
@@ -34,9 +36,6 @@ This repo contains a boilerplate project featuring WebdriverIO, slightly modifie
 - Custom Steps
 - Create and Integrate a Custom Step
 - Misc. Actions in the Webdriver/Node execution space
-
-
-====================
 
 
 Original README for Cucumber Boilerplate [![Test](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml/badge.svg)](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml)
